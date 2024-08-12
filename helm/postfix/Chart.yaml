@@ -1,0 +1,12 @@
+apiVersion: v1
+version: 0.0.1
+appVersion: "0.1"
+description: A Helm chart for a highly available postfix relay whit opendkim in Kubernetes
+name: postfix
+keywords:
+- postfix
+sources:
+- https://github.com/chernienkoii/postfix-dkim
+maintainers:
+- name: Igor
+  email: chernyenko.igor@gmail.com

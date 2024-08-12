@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  dkim.key: yor-dkim-cert
+kind: Secret
+metadata:
+  name: {{ template "postfix.fullname" . }}-dkim-key
+type: Opaque
